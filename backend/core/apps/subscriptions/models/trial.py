@@ -1,0 +1,1 @@
+"""subscriptions model: trial."""

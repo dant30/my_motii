@@ -1,0 +1,1 @@
+"""garages client-facing views."""

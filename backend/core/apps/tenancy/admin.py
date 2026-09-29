@@ -1,0 +1,1 @@
+"""tenancy Django admin registration."""

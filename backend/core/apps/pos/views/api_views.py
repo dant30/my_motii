@@ -1,0 +1,1 @@
+"""pos client-facing views."""

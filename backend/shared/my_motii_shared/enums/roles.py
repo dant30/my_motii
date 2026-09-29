@@ -1,0 +1,12 @@
+"""Tenant staff roles."""
+
+from enum import StrEnum
+
+
+class UserRole(StrEnum):
+	CASHIER = "CASHIER"
+	STOREKEEPER = "STOREKEEPER"
+	PARTS_SALES = "PARTS_SALES"
+	BRANCH_MANAGER = "BRANCH_MANAGER"
+	ACCOUNTANT = "ACCOUNTANT"
+	TENANT_ADMIN = "TENANT_ADMIN"

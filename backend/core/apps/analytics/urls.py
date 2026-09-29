@@ -1,0 +1,1 @@
+"""analytics URL configuration."""

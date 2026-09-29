@@ -1,0 +1,1 @@
+"""integrations model: integration_credential."""

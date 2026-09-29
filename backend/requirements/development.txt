@@ -1,0 +1,10 @@
+-r base.txt
+pytest>=8.3
+pytest-django>=4.9
+pytest-asyncio>=0.24
+pytest-cov>=5.0
+factory-boy>=3.3
+ruff>=0.6
+mypy>=1.11
+django-stubs>=5.0
+ipython>=8.27

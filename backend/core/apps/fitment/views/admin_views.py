@@ -1,0 +1,1 @@
+"""fitment platform-admin views."""

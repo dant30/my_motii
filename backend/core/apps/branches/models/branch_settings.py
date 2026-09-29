@@ -1,0 +1,1 @@
+"""branches model: branch_settings."""

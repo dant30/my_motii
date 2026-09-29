@@ -1,0 +1,1 @@
+"""marketplace platform-admin views."""

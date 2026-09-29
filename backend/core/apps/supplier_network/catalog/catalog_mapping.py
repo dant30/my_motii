@@ -1,0 +1,1 @@
+"""supplier_network/catalog :: catalog_mapping."""

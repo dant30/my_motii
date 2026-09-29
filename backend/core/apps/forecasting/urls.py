@@ -1,0 +1,1 @@
+"""forecasting URL configuration."""

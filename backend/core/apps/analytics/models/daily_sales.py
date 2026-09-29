@@ -1,0 +1,1 @@
+"""analytics model: daily_sales."""

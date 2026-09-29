@@ -1,0 +1,1 @@
+"""fitment Django admin registration."""

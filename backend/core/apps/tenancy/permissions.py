@@ -1,0 +1,1 @@
+"""tenancy DRF/FastAPI permissions."""

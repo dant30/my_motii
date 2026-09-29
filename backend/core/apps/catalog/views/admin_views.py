@@ -1,0 +1,1 @@
+"""catalog platform-admin views."""

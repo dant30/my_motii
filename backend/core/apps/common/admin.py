@@ -1,0 +1,1 @@
+"""common Django admin registration."""

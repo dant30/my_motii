@@ -1,0 +1,1 @@
+"""accounting model: journal_line."""

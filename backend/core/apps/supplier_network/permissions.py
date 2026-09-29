@@ -1,0 +1,1 @@
+"""supplier_network DRF/FastAPI permissions."""

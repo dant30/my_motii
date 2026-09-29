@@ -1,0 +1,1 @@
+"""mpesa DRF/FastAPI permissions."""

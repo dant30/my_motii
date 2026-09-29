@@ -1,0 +1,1 @@
+"""notifications platform-admin views."""

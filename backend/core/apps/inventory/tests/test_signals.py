@@ -1,0 +1,1 @@
+"""inventory tests: test_signals.py."""

@@ -1,0 +1,1 @@
+"""customers platform-admin views."""

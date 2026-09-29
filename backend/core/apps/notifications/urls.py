@@ -1,0 +1,1 @@
+"""notifications URL configuration."""

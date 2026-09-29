@@ -1,0 +1,1 @@
+"""pos platform-admin views."""

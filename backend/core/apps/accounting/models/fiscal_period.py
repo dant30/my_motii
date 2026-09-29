@@ -1,0 +1,1 @@
+"""accounting model: fiscal_period."""

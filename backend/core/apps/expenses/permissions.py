@@ -1,0 +1,1 @@
+"""expenses DRF/FastAPI permissions."""

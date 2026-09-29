@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+*.sqlite3
+*.db
+
+# Node
+node_modules/
+.pnpm-store/
+dist/
+build/
+.next/
+.turbo/
+
+# Env
+.env
+.env.*
+!.env.example
+*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project
+database/backups/*
+!database/backups/.gitkeep
+frontend/packages/api-client/generated/*
+!frontend/packages/api-client/generated/.gitkeep

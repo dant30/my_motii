@@ -1,0 +1,1 @@
+"""analytics Django admin registration."""

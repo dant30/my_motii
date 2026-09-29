@@ -1,0 +1,1 @@
+"""purchasing URL configuration."""

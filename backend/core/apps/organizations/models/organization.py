@@ -1,0 +1,1 @@
+"""organizations model: organization."""

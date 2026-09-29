@@ -1,0 +1,1 @@
+"""forecasting Django admin registration."""

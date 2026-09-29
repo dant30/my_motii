@@ -1,0 +1,7 @@
+name: Backend tests
+on: [push, pull_request]
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4

@@ -1,0 +1,1 @@
+"""catalog DRF/FastAPI permissions."""

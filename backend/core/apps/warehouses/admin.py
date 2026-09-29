@@ -1,0 +1,1 @@
+"""warehouses Django admin registration."""

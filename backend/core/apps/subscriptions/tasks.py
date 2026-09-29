@@ -1,0 +1,1 @@
+"""subscriptions Celery tasks."""

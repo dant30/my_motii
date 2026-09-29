@@ -1,0 +1,1 @@
+"""garages model: labor."""

@@ -1,0 +1,1 @@
+"""supplier_network tests: test_admin_views.py."""

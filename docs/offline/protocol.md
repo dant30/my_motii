@@ -1,0 +1,3 @@
+# Offline sync protocol
+
+TODO.

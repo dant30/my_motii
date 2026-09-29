@@ -1,0 +1,1 @@
+"""supplier_network Django admin registration."""

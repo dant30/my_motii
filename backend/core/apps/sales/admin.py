@@ -1,0 +1,1 @@
+"""sales Django admin registration."""

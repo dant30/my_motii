@@ -1,0 +1,1 @@
+"""warehouses tests: factories.py."""

@@ -1,0 +1,1 @@
+"""inventory Celery tasks."""

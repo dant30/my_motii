@@ -1,0 +1,1 @@
+"""warehouses platform-admin views."""

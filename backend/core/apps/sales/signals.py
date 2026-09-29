@@ -1,0 +1,1 @@
+"""sales signal receivers."""

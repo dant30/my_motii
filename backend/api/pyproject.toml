@@ -1,0 +1,5 @@
+[project]
+name = "my-motii-api"
+version = "0.0.0"
+requires-python = ">=3.11"
+dependencies = ["my-motii-shared", "my-motii-core"]

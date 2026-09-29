@@ -1,0 +1,19 @@
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E","F","W","I","N","UP","B","C4","SIM","RUF"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+plugins = ["mypy_django_plugin.main"]
+
+[tool.pytest.ini_options]
+testpaths = ["backend/core/tests","backend/core/apps","backend/api/tests","tests"]
+python_files = ["test_*.py"]
+addopts = "-ra --strict-markers"
+DJANGO_SETTINGS_MODULE = "config.settings.testing"
+pythonpath = ["backend/core", "backend/api"]

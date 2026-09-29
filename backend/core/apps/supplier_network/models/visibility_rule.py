@@ -1,0 +1,1 @@
+"""supplier_network model: visibility_rule."""

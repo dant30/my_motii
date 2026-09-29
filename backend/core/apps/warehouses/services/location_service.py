@@ -1,0 +1,1 @@
+"""warehouses service: location_service."""

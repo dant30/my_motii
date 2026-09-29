@@ -1,0 +1,1 @@
+"""Bootstrap Django ORM inside FastAPI."""

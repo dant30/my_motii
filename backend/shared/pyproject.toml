@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my-motii-shared"
+version = "0.0.0"
+description = "Shared domain primitives for my_motii."
+requires-python = ">=3.11"
+dependencies = ["Django>=5.0,<5.1"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["my_motii_shared*"]

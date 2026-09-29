@@ -1,0 +1,1 @@
+"""suppliers platform-admin views."""

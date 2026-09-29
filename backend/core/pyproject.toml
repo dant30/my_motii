@@ -1,0 +1,9 @@
+[project]
+name = "my-motii-core"
+version = "0.0.0"
+requires-python = ">=3.11"
+dependencies = ["my-motii-shared"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["apps*", "config*"]

@@ -1,0 +1,1 @@
+"""purchasing Django admin registration."""

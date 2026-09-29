@@ -1,0 +1,1 @@
+"""catalog client-facing views."""

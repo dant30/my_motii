@@ -1,0 +1,61 @@
+services:
+  postgres:
+    image: postgres:16
+    env_file: .env
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./infra/docker/postgres/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    ports: ["5432:5432"]
+
+  redis:
+    image: redis:7
+    command: redis-server /usr/local/etc/redis/redis.conf
+    volumes:
+      - ./infra/docker/redis/redis.conf:/usr/local/etc/redis/redis.conf:ro
+    ports: ["6379:6379"]
+
+  api:
+    build:
+      context: .
+      dockerfile: infra/docker/backend.Dockerfile
+    command: ["/app/infra/scripts/entrypoint-api.sh"]
+    env_file: .env
+    depends_on: [postgres, redis]
+    ports: ["8001:8001"]
+
+  core:
+    build:
+      context: .
+      dockerfile: infra/docker/backend.Dockerfile
+    command: ["gunicorn","config.wsgi:application","-b","0.0.0.0:8000"]
+    working_dir: /app/backend/core
+    env_file: .env
+    depends_on: [postgres, redis]
+    ports: ["8000:8000"]
+
+  worker:
+    build:
+      context: .
+      dockerfile: infra/docker/worker.Dockerfile
+    command: ["/app/infra/scripts/entrypoint-worker.sh"]
+    env_file: .env
+    depends_on: [postgres, redis]
+
+  beat:
+    build:
+      context: .
+      dockerfile: infra/docker/worker.Dockerfile
+    command: ["/app/infra/scripts/entrypoint-beat.sh"]
+    env_file: .env
+    depends_on: [postgres, redis]
+
+  nginx:
+    image: nginx:1.27
+    volumes:
+      - ./infra/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./infra/nginx/conf.d:/etc/nginx/conf.d:ro
+    ports: ["80:80"]
+    depends_on: [api, core]
+
+volumes:
+  pgdata:

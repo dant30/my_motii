@@ -1,0 +1,1 @@
+"""sales platform-admin views."""

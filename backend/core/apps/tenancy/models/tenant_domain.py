@@ -1,0 +1,1 @@
+"""tenancy model: tenant_domain."""

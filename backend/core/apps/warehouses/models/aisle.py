@@ -1,0 +1,1 @@
+"""warehouses model: aisle."""

@@ -1,0 +1,1 @@
+"""subscriptions tests: factories.py."""

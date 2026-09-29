@@ -1,0 +1,1 @@
+"""mpesa Django admin registration."""

@@ -1,0 +1,1 @@
+"""catalog tests: test_permissions.py."""

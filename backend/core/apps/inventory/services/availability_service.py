@@ -1,0 +1,1 @@
+"""inventory service: availability_service."""

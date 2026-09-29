@@ -1,0 +1,1 @@
+"""payments Django admin registration."""

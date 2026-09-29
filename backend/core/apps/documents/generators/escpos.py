@@ -1,0 +1,1 @@
+"""documents/generators :: escpos."""

@@ -1,0 +1,1 @@
+"""tenancy tests: test_models.py."""

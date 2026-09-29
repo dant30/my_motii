@@ -1,0 +1,1 @@
+"""vehicles model: fuel_type."""

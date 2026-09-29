@@ -1,0 +1,1 @@
+"""marketplace Django admin registration."""

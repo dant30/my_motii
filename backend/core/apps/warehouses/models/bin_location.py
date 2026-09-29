@@ -1,0 +1,1 @@
+"""warehouses model: bin_location."""

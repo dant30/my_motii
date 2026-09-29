@@ -1,0 +1,1 @@
+"""etims model: etims_response."""

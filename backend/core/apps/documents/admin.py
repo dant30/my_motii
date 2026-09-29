@@ -1,0 +1,1 @@
+"""documents Django admin registration."""

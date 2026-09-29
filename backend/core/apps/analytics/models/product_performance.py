@@ -1,0 +1,1 @@
+"""analytics model: product_performance."""

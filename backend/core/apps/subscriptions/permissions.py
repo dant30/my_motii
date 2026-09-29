@@ -1,0 +1,1 @@
+"""subscriptions DRF/FastAPI permissions."""

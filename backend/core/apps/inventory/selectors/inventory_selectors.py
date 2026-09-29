@@ -1,0 +1,1 @@
+"""inventory selector: inventory_selectors."""

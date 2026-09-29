@@ -1,0 +1,1 @@
+"""purchasing tests: conftest.py."""

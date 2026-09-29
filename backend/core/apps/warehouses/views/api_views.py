@@ -1,0 +1,1 @@
+"""warehouses client-facing views."""

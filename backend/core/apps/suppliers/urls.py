@@ -1,0 +1,1 @@
+"""suppliers URL configuration."""

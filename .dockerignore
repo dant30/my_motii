@@ -1,0 +1,12 @@
+.git
+.github
+node_modules
+**/node_modules
+.venv
+**/__pycache__
+**/*.pyc
+docs
+*.md
+.env
+.env.*
+!.env.example

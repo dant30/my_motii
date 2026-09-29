@@ -1,0 +1,1 @@
+"""purchasing tests: test_services.py."""

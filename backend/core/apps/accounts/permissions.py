@@ -1,0 +1,1 @@
+"""accounts DRF/FastAPI permissions."""

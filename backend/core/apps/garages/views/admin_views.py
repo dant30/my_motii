@@ -1,0 +1,1 @@
+"""garages platform-admin views."""

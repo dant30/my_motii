@@ -1,0 +1,1 @@
+"""pos Django admin registration."""

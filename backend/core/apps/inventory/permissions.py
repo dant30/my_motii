@@ -1,0 +1,1 @@
+"""inventory DRF/FastAPI permissions."""

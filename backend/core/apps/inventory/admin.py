@@ -1,0 +1,1 @@
+"""inventory Django admin registration."""

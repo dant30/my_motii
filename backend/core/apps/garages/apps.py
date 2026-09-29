@@ -1,0 +1,1 @@
+"""garages app configuration."""

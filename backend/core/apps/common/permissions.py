@@ -1,0 +1,1 @@
+"""common DRF/FastAPI permissions."""

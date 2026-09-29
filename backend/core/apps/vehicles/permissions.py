@@ -1,0 +1,1 @@
+"""vehicles DRF/FastAPI permissions."""

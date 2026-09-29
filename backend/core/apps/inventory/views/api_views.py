@@ -1,0 +1,1 @@
+"""inventory client-facing views."""

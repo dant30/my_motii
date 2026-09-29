@@ -1,0 +1,1 @@
+"""vehicles tests: test_admin_views.py."""

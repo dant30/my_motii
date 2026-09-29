@@ -1,0 +1,1 @@
+"""analytics model: inventory_metrics."""

@@ -1,0 +1,1 @@
+"""suppliers client-facing views."""

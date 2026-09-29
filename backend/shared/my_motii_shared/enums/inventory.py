@@ -1,0 +1,20 @@
+"""Inventory movement and reservation states."""
+
+from enum import StrEnum
+
+
+class StockMovementType(StrEnum):
+	SALE = "SALE"
+	PURCHASE_RECEIPT = "PURCHASE_RECEIPT"
+	ADJUSTMENT_IN = "ADJUSTMENT_IN"
+	ADJUSTMENT_OUT = "ADJUSTMENT_OUT"
+	TRANSFER_IN = "TRANSFER_IN"
+	TRANSFER_OUT = "TRANSFER_OUT"
+	RETURN_RESTOCK = "RETURN_RESTOCK"
+
+
+class ReservationStatus(StrEnum):
+	ACTIVE = "ACTIVE"
+	FULFILLED = "FULFILLED"
+	EXPIRED = "EXPIRED"
+	CANCELLED = "CANCELLED"

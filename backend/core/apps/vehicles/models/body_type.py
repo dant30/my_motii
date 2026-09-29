@@ -1,0 +1,1 @@
+"""vehicles model: body_type."""

@@ -1,0 +1,1 @@
+"""marketplace DRF/FastAPI permissions."""

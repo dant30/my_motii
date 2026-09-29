@@ -1,0 +1,1 @@
+"""integrations platform-admin views."""

@@ -1,0 +1,1 @@
+"""notifications Django admin registration."""

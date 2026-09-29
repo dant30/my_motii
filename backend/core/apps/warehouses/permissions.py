@@ -1,0 +1,1 @@
+"""warehouses DRF/FastAPI permissions."""

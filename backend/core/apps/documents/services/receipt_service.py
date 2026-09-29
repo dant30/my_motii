@@ -1,0 +1,1 @@
+"""documents service: receipt_service."""

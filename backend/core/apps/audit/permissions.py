@@ -1,0 +1,1 @@
+"""audit DRF/FastAPI permissions."""

@@ -1,0 +1,1 @@
+"""documents DRF/FastAPI permissions."""

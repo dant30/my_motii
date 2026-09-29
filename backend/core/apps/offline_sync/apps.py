@@ -1,0 +1,1 @@
+"""offline_sync app configuration."""
