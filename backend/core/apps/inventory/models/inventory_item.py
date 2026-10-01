@@ -8,6 +8,7 @@ from apps.common.models import TenantModel
 class InventoryItem(TenantModel):
 	product = models.ForeignKey("catalog.Product", on_delete=models.CASCADE, related_name="inventory_items")
 	branch = models.ForeignKey("branches.Branch", on_delete=models.PROTECT, related_name="inventory_items")
+	bin_location = models.ForeignKey("warehouses.BinLocation", null=True, blank=True, on_delete=models.SET_NULL)
 	min_stock_level = models.PositiveIntegerField(default=3)
 	reorder_point = models.PositiveIntegerField(default=5)
 	reorder_quantity = models.PositiveIntegerField(default=10)
